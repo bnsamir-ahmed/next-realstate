@@ -1,0 +1,14 @@
+.textBoldPrim{
+    color: var(--colorPrimary-D46);
+    font-size: var(--font-size19);
+    font-weight: var(--font-w-700);
+    text-transform: capitalize;
+}
+.textPrim_XlBold {
+    color: var(--colorPrimary-D46);
+    font-weight: var(--font-w-700);
+}
+.textNorm_regular {
+    color: var(--colorWhite-9F9);
+    font-weight: var(--font-w-500);
+}

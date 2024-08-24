@@ -1,0 +1,22 @@
+.bgWhite{
+    background-color: var(--colorWhite-FFF);
+}
+.footer_link {
+    color: var(--colorBlack-262);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text_footer {
+    color: var(--colorBlack-b2b);
+    font-size: var(--font-size19);
+    font-weight: var(--font-w-400);
+}
+.sub_footer {
+    color: var(--colorBlack-262);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,38 @@
+.bgForm {
+  background-image: url("../../../public/assets/alaakarBglog-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: var(--colorWhite-9F9);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.09);
+  width: 688px;
+}
+.inputsForm {
+  outline: none;
+  border: 1px solid var(--colorWhite-aca);
+  padding: 12px 16px 12px 14px;
+  border-radius: 10px;
+  background: var(--colorWhite-FFF);
+  color: var(--colorBlack-262);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-shadow: none;
+  height: 48px;
+}
+.eye_btn {
+  right: 10px;
+  position: absolute;
+  bottom: 12px;
+}
