@@ -24,10 +24,10 @@ const   Header = () => {
   return (
     <>
     <header className="bg-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <nav className="mx-auto flex max-w-full items-center justify-between p-6 lg:px-8" aria-label="Global">
          <ul className='flex items-center'>
-            <Link className={`mx-2 capitalize text-base black-262 ${path === '/' ? Classes.active_link :''}`} href={'/bye'}>bye</Link>
-            <Link className={`mx-2 capitalize text-base black-262 ${path === '/rent' ?  Classes.active_link :''}`}href={'/rent'}>rent</Link>
+            <Link className={`mx-2 capitalize text-base black-262 ${path === '/' ? Classes.active_link :''}`} href={'/'}>bye</Link>
+            <Link className={`mx-2 capitalize text-base black-262 ${path === '/rent' ?  Classes.active_link :''}`}href={'createPassword'}>rent</Link>
             <Link className={`mx-2 capitalize text-base black-262 ${path === '/mortgage' ?  Classes.active_link :''}`} href={'/mortgage'}>mortgage</Link>
             <Link className={`mx-2 capitalize text-base black-262 ${path === '/auction' ?  Classes.active_link :''}`} href={'/auction'}>auction</Link>
             <Link className={`mx-2 capitalize text-base black-262 ${path === '/more' ?  Classes.active_link :''}`} href={'/more'}>more</Link>

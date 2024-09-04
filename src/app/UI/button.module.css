@@ -8,3 +8,17 @@
   width: 100%;
   margin-top: 30px;
 }
+
+.btn_prim {
+  color: var(--colorWhite-FFF);
+  background-color: var(--colorPrimary-D46);
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: var(--font-w-500);
+}
+.btn_danger {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid var(--colorDanger-100--664);
+  color: var(--colorDanger-100--664);
+}
